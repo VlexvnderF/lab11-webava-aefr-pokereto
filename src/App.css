@@ -1,0 +1,79 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  
+}
+body{
+  color: whitesmoke;
+  background: rgb(184,222,22);
+background: linear-gradient(90deg, rgba(184,222,22,1) 0%, rgba(144,198,138,1) 49%, rgba(1,64,9,1) 100%);
+}
+
+#contenedor{
+  color: white;
+  
+}
+
+#imgprofile{
+  height: 200px;
+  
+}
+#imgprofile:hover{
+  -webkit-transform: rotate(360deg);
+  transition: 2s ease-in-out;
+}
+
+#rock{
+  background: rgb(255,230,18);
+background: radial-gradient(circle, rgba(255,230,18,1) 0%, rgba(204,141,50,1) 49%, rgba(82,54,2,1) 100%);
+}
+#ghost{
+  background-color: rgb(247, 247, 247);
+}
+#electric{
+  background: rgb(253,194,81);
+background: radial-gradient(circle, rgba(253,194,81,1) 0%, rgba(208,135,32,1) 49%, rgba(255,246,27,1) 100%);
+}
+#bug{
+  background-color: #F6D6A7 ;
+}
+#poison{
+  background: rgb(254,166,255);
+background: radial-gradient(circle, rgba(254,166,255,1) 0%, rgba(224,48,220,1) 50%, rgba(182,0,122,1) 100%);
+}
+#normal{
+  background-color: #F4F4F4;
+}
+#fairy{
+  background-color: rgba(255, 192, 203,0.863);
+}
+#fire{
+  background: rgb(255,230,20);
+background: radial-gradient(circle, rgba(255,230,20,1) 0%, rgba(255,159,88,1) 49%, rgba(236,5,5,1) 100%);
+}
+#grass{
+  background: rgb(196,255,166);
+background: radial-gradient(circle, rgba(196,255,166,1) 0%, rgba(116,224,48,1) 50%, rgba(0,182,7,1) 100%);
+}
+
+#water{
+  background: rgb(113,229,255);
+background: radial-gradient(circle, rgba(113,229,255,1) 0%, rgba(32,194,208,1) 49%, rgba(27,145,255,1) 100%);
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
